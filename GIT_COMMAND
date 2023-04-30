@@ -1,0 +1,12 @@
+BASIC GIT COMMANDS
+1. to make a new file: touch name:  txt
+2. to check if git is installed in yout PC:    git
+3. to initialize an empty Git repository in your folder:  git init
+4. to view the changes or the untracked files in the project that's not been saved yet:  gir status
+5. staging the files:  git add file_name OR git add.(to stage everything in the current folder)
+6. committing thr files:  git commit -m"your massage here"
+7. to unstage or remove a file from the staging level:   git restore --staged file_name.txt
+8. to removing commit from the history of a prject:  git reset (insert commit hasg id to which you want to go back to here)
+9. after you stage a few files but then you want to have a clean codebase or reuse those files later, we can stash those changes to go back to the commit before thet were staged :    git stash
+10. bringing back those chages or pop them fro m thr stash:  git stash pop
+11. to clean the changes or files in your stash:   git stash clear 
